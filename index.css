@@ -1,74 +1,22 @@
-body {
-    margin: 0;
-    padding: 0;
-    color: #ffffff;
-    background-color: #000000;
-    font-family: Arial, sans-serif;
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #0f172a;
 }
 
-main {
-    padding: 225px 0;
-    text-align: center;
+canvas {
+  display: block;
 }
 
-h1 {
-    margin: 0;
-    font-size: 64px;
+#hint {
+  position: fixed;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #94a3b8;
+  font-family: monospace;
+  font-size: 14px;
+  opacity: 0.75;
+  user-select: none;
 }
-
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background: #000000;
-    color: #ffffff;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
-
-.navbar {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    color: white;
-    padding: 0 32px;
-    background: #000000;
-    height: 48px; /* линия на 24px от верха, логотип 24px высотой */
-    font-size: 24px;
-}
-
-.navbar img {
-    height: 32px;
-    width: auto;
-    display: block;
-}
-
-.navbar .brand {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    text-decoration: none;
-    color: inherit;
-    margin-right: auto; /* уводим PROJECTS вправо */
-}
-
-.navbar .logo {
-    font-weight: bold;
-}
-
-.navbar .logo span {
-    margin-left: 6px;
-}
-
-.navbar a {
-    color: #e0e0e0;
-    text-decoration: none;
-    margin-left: 20px;
-}
-
-.navbar a:hover {
-    color: #ffcc00; /* подсветка при наведении*/
-}
-
-

@@ -20,3 +20,43 @@ canvas {
   opacity: 0.75;
   user-select: none;
 }
+
+#ui {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  font-family: monospace;
+}
+
+#brand {
+  position: absolute;
+  top: 20px;
+  left: 24px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #e5e7eb;
+  font-size: 18px;
+  pointer-events: auto;
+}
+
+#brand img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#projects-link {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  color: #94a3b8;
+  text-decoration: none;
+  font-size: 16px;
+  pointer-events: auto;
+}
+
+#projects-link:hover {
+  color: #38bdf8;
+}

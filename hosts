@@ -1,63 +1,59 @@
-80.74.29.235 chatgpt.com                                         # ChatGPT, OpenAI
-80.74.29.235 ab.chatgpt.com                                      # ChatGPT, OpenAI
-80.74.29.235 auth.openai.com                                     # ChatGPT, OpenAI
-80.74.29.235 auth0.openai.com                                    # ChatGPT, OpenAI
-80.74.29.235 platform.openai.com                                 # ChatGPT, OpenAI
-80.74.29.235 cdn.oaistatic.com                                   # ChatGPT, OpenAI
-80.74.29.235 files.oaiusercontent.com                            # ChatGPT, OpenAI
-80.74.29.235 cdn.auth0.com                                       # ChatGPT, OpenAI
-80.74.29.235 tcr9i.chat.openai.com                               # ChatGPT, OpenAI
-80.74.29.235 webrtc.chatgpt.com                                  # ChatGPT, OpenAI
-80.74.29.235 android.chat.openai.com                             # ChatGPT, OpenAI
-80.74.29.235 api.openai.com                                      # ChatGPT, OpenAI
-80.74.29.235 operator.chatgpt.com                                # ChatGPT, OpenAI
-80.74.29.235 sora.chatgpt.com                                    # ChatGPT, OpenAI
-80.74.29.235 sora.com                                            # ChatGPT, OpenAI
-80.74.29.235 sora.chatgpt.com                                    # ChatGPT, OpenAI
-80.74.29.235 videos.openai.com                                   # ChatGPT, OpenAI
-
-80.74.29.235 deepl.com                                           # DeepL
-80.74.29.235 www.deepl.com                                       # DeepL
-80.74.29.235 www2.deepl.com                                      # DeepL
-80.74.29.235 login-wall.deepl.com                                # DeepL
-80.74.29.235 w.deepl.com                                         # DeepL
-80.74.29.235 s.deepl.com                                         # DeepL
-80.74.29.235 dict.deepl.com                                      # DeepL
-80.74.29.235 ita-free.www.deepl.com                              # DeepL
-80.74.29.235 write-free.www.deepl.com                            # DeepL
-80.74.29.235 experimentation.deepl.com                           # DeepL
-
-142.54.189.109 api.spotify.com                                     # Spotify
-142.54.189.109 xpui.app.spotify.com                                # Spotify
-142.54.189.109 appresolve.spotify.com                              # Spotify
-142.54.189.109 login5.spotify.com                                  # Spotify
-142.54.189.109 login.app.spotify.com                               # Spotify
-142.54.189.109 encore.scdn.co                                      # Spotify
-142.54.189.109 ap-gew1.spotify.com                                 # Spotify
-142.54.189.109 gew1-spclient.spotify.com                           # Spotify
-142.54.189.109 spclient.wg.spotify.com                             # Spotify
-142.54.189.109 api-partner.spotify.com                             # Spotify
-142.54.189.109 aet.spotify.com                                     # Spotify
-142.54.189.109 www.spotify.com                                     # Spotify
-142.54.189.109 accounts.spotify.com                                # Spotify
-142.54.189.109 open.spotify.com                                    # Spotify
-
-80.74.29.235 notebooklm.google                                   # Сервисы Google
-80.74.29.235 notebooklm.google.com                               # Сервисы Google
-80.74.29.235 gemini.google.com                                   # Сервисы Google
-80.74.29.235 aistudio.google.com                                 # Сервисы Google
-80.74.29.235 generativelanguage.googleapis.com                   # Сервисы Google
-80.74.29.235 aitestkitchen.withgoogle.com                        # Сервисы Google
-80.74.29.235 aisandbox-pa.googleapis.com                         # Сервисы Google
-80.74.29.235 webchannel-alkalimakersuite-pa.clients6.google.com  # Сервисы Google
-80.74.29.235 alkalimakersuite-pa.clients6.google.com             # Сервисы Google
-80.74.29.235 assistant-s3-pa.googleapis.com                      # Сервисы Google
-80.74.29.235 proactivebackend-pa.googleapis.com                  # Сервисы Google
-80.74.29.235 o.pki.goog                                          # Сервисы Google
-80.74.29.235 labs.google                                         # Сервисы Google
-80.74.29.235 jules.google.com                                    # Сервисы Google
-80.74.29.235 stitch.withgoogle.com                               # Сервисы Google
-
+80.74.29.235 chatgpt.com
+80.74.29.235 ab.chatgpt.com
+80.74.29.235 auth.openai.com
+80.74.29.235 auth0.openai.com
+80.74.29.235 platform.openai.com
+80.74.29.235 cdn.oaistatic.com
+80.74.29.235 files.oaiusercontent.com
+80.74.29.235 cdn.auth0.com
+80.74.29.235 tcr9i.chat.openai.com
+80.74.29.235 webrtc.chatgpt.com
+80.74.29.235 android.chat.openai.com
+80.74.29.235 api.openai.com
+80.74.29.235 operator.chatgpt.com
+80.74.29.235 sora.chatgpt.com
+80.74.29.235 sora.com
+80.74.29.235 sora.chatgpt.com
+80.74.29.235 videos.openai.com
+80.74.29.235 deepl.com
+80.74.29.235 www.deepl.com
+80.74.29.235 www2.deepl.com
+80.74.29.235 login-wall.deepl.com
+80.74.29.235 w.deepl.com
+80.74.29.235 s.deepl.com
+80.74.29.235 dict.deepl.com
+80.74.29.235 ita-free.www.deepl.com
+80.74.29.235 write-free.www.deepl.com
+80.74.29.235 experimentation.deepl.com
+142.54.189.109 api.spotify.com
+142.54.189.109 xpui.app.spotify.com
+142.54.189.109 appresolve.spotify.com
+142.54.189.109 login5.spotify.com
+142.54.189.109 login.app.spotify.com
+142.54.189.109 encore.scdn.co
+142.54.189.109 ap-gew1.spotify.com
+142.54.189.109 gew1-spclient.spotify.com
+142.54.189.109 spclient.wg.spotify.com
+142.54.189.109 api-partner.spotify.com
+142.54.189.109 aet.spotify.com
+142.54.189.109 www.spotify.com
+142.54.189.109 accounts.spotify.com
+142.54.189.109 open.spotify.com
+80.74.29.235 notebooklm.google
+80.74.29.235 notebooklm.google.com
+80.74.29.235 gemini.google.com
+80.74.29.235 aistudio.google.com
+80.74.29.235 generativelanguage.googleapis.com
+80.74.29.235 aitestkitchen.withgoogle.com
+80.74.29.235 aisandbox-pa.googleapis.com
+80.74.29.235 webchannel-alkalimakersuite-pa.clients6.google.com
+80.74.29.235 alkalimakersuite-pa.clients6.google.com
+80.74.29.235 assistant-s3-pa.googleapis.com
+80.74.29.235 proactivebackend-pa.googleapis.com
+80.74.29.235 o.pki.goog
+80.74.29.235 labs.google
+80.74.29.235 jules.google.com
+80.74.29.235 stitch.withgoogle.com
 149.154.167.220 telegram.me
 149.154.167.220 telegram.dog
 149.154.167.220 telegram.space
@@ -93,8 +89,7 @@
 149.154.167.220 zws2.web.telegram.org
 149.154.167.220 zws4-1.web.telegram.org
 149.154.167.220 zws5-1.web.telegram.org
-149.154.167.220 zws5.web.telegram.org
-
+149.154.167.220 zws5.web.telegram.org
 104.25.158.178 finland10000.discord.media
 104.25.158.178 finland10001.discord.media
 104.25.158.178 finland10002.discord.media

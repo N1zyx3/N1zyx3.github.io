@@ -1,7 +1,15 @@
 const game = new Chess();
-let peer = new Peer();
 let conn = null;
 let playerColor = 'w';
+
+const peer = new Peer(undefined, {
+    config: {
+        'iceServers': [
+            { url: 'stun:stun.l.google.com:19302' },
+            { url: 'stun:global.stun.twilio.com:3478' }
+        ]
+    }
+});
 
 // Настройка доски
 const boardConfig = {

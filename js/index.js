@@ -1,8 +1,3 @@
-document.addEventListener('contextmenu', function(e) {
-    e.preventDefault(); // Отменяет стандартное контекстное меню
-    window.location.href = 'assets.html'; // Перенаправление
-});
-
 /* =========================
    SCENE SETUP
 ========================= */

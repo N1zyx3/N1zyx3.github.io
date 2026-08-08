@@ -61,6 +61,20 @@ canvas {
   color: #38bdf8;
 }
 
+#ahu {
+  position: absolute;
+  top: 24px;
+  right: 187px;
+  color: #94a3b8;
+  text-decoration: none;
+  font-size: 16px;
+  pointer-events: auto;
+}
+
+#ahu:hover {
+  color: #38bdf8;
+}
+
 #glados {
   position: absolute;
   top: 24px;

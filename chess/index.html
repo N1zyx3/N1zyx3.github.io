@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Chess P2P | N1zyx3</title>
+        <link rel="stylesheet" href="chess.css" />
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1>Шахматы</h1>
+                <div id="status" class="status">Ожидание подключения...</div>
+            </header>
+
+            <div id="board-wrap">
+                <div id="board"></div>
+            </div>
+
+            <section id="connect-panel" class="panel">
+                <div class="btn-row">
+                    <button id="btn-create" class="btn">Создать игру</button>
+                    <button id="btn-scan" class="btn">Подключиться (QR)</button>
+                    <button id="btn-paste" class="btn">Подключиться (код)</button>
+                </div>
+
+                <div id="step-offer" class="step hidden">
+                    <p class="note">Покажи этот QR или отправь код сопернику. Затем вставь обратно полученный от него ответ.</p>
+                    <canvas id="qr-offer" width="0" height="0"></canvas>
+                    <textarea id="code-offer" rows="3" readonly></textarea>
+                    <button id="btn-copy-offer" class="btn">Скопировать код</button>
+                </div>
+
+                <div id="step-answer-input" class="step hidden">
+                    <p class="note">Вставь ответ соперника (или отсканируй его QR) и нажми «Соединиться».</p>
+                    <textarea id="code-answer-input" rows="2" placeholder="Ответ соперника"></textarea>
+                    <button id="btn-scan-answer" class="btn">Отсканировать QR ответа</button>
+                    <button id="btn-connect" class="btn primary">Соединиться</button>
+                </div>
+
+                <div id="step-scan-offer" class="step hidden">
+                    <p class="note">Наведи камеру на QR-код игрока.</p>
+                    <canvas id="qr-preview" width="0" height="0"></canvas>
+                    <p id="scan-status">Камера не запущена</p>
+                </div>
+
+                <div id="step-answer" class="step hidden">
+                    <p class="note">Отправь этот ответ создателю, чтобы он завершил соединение.</p>
+                    <canvas id="qr-answer" width="0" height="0"></canvas>
+                    <textarea id="code-answer" rows="2" readonly></textarea>
+                    <button id="btn-copy-answer" class="btn">Скопировать код</button>
+                </div>
+
+                <div id="connected-hint" class="step hidden">
+                    <p class="note">Соединение установлено. Играй!</p>
+                    <button id="btn-new" class="btn">Новая игра</button>
+                </div>
+            </section>
+        </div>
+
+        <div id="promo-overlay" class="hidden">
+            <div id="promo-box">
+                <p>Превращение пешки</p>
+                <div class="promo-row">
+                    <button class="promo-btn" data-piece="q">Ферзь</button>
+                    <button class="promo-btn" data-piece="r">Ладья</button>
+                    <button class="promo-btn" data-piece="b">Слон</button>
+                    <button class="promo-btn" data-piece="n">Конь</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="chess.js"></script>
+        <script src="qrcode.js"></script>
+        <script src="jsqr.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
